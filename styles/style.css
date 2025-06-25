@@ -13,4 +13,43 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--inter);
+  color: var(--text-color);
+  font-variation-settings: "wght" var(--font-weight-text);
+  background-image: 
+    repeating-linear-gradient(90deg,#d3d3d3 0px 2px, transparent 2px 4px),
+    repeating-linear-gradient(0deg, #d3d3d3 0px 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7, #1a1a1a);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  
+
+}
+
+.header-logo-title {
+  border: 2px solid #000;
+  background-color: var(--bg-color);
+  display: flex;
+  padding: var(--padding-header-logo-title);
+  font-family: var(--PressStart2P);
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  max-height: 368px;
+}
+
+.header-logo {
+  font-size: var(--header-logotype-size);
+}
+
+.header-title { 
+  font-size: clamp(14px, 0.845vw + 10.83px, 23px);
 }

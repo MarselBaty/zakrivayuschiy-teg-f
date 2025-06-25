@@ -1,1 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --inter: "Inter-Variable", "Courier";
+    --PressStart2P: "Prees Start 2P", "Courier";
+
+    --bg-color: #fff;
+    --text-color: #000;
+    --font-weight-heading: 700;
+    --font-weight-text: 400;
+    --header-logotype-size: clamp(49px, 4.17vw + 33.37px, 65px);
+    --header-title-size: clamp(49px, 4.17vw + 33.37px, 65px);
+
+    --padding-header-logo-title: clamp(120px, 0.751vw + 117.18px, 128px) clamp(14px, 10.047vw - 23.68px, 121px);
+    
+}
