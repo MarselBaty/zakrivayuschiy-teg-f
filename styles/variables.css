@@ -5,11 +5,20 @@
 
     --bg-color: #fff;
     --text-color: #000;
-    --font-weight-heading: 700;
-    --font-weight-text: 400;
-    --header-logotype-size: clamp(49px, 4.17vw + 33.37px, 65px);
-    --header-title-size: clamp(49px, 4.17vw + 33.37px, 65px);
+    --shdw-color: rgba(255, 255, 255);
+    --contour-color: #000;
 
+    --normal-text-weight: 400;
+    --bold-text-weight: 700;
+    --main-text-size: 18px;
+    --section-width: clamp(375px, calc(0.3014vw * 100 + 375px - 30.14px), 700px);
+    --header-logotype-font-size: clamp(49px, 4.17vw + 33.37px, 65px);
+    --header-title-size: clamp(49px, 4.17vw + 33.37px, 65px);
+    --dlg-width-size: clamp(341px, 20.9604rem + 1.5023vw, 357px);
+    --dlg-padding-size: clamp(40px, 3.0964rem + -2.5445vw, 30px);
+    --save-btn-width-size: clamp(310px, 18.7368rem + 2.723vw, 339px);
+
+    --cont-itm-padding-right: 25px;
+    --cont-itm-padding-top: 26px;
     --padding-header-logo-title: clamp(120px, 0.751vw + 117.18px, 128px) clamp(14px, 10.047vw - 23.68px, 121px);
-    
 }
