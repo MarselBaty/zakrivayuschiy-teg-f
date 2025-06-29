@@ -49,7 +49,7 @@
   font-size: var(--header-logotype-font-size);
 }
 
-.header-title { 
+.header-title {
   font-size: clamp(14px, 0.845vw + 10.83px, 23px);
 }
 
@@ -273,7 +273,7 @@ body:has(.head-sect[open]) {
   transition: background-position 0.5s ease-in-out, box-shadow 0.3s ease;
 }
 
-.el-itm:focus {
+button:focus {
   outline: none;
 }
 
@@ -313,7 +313,7 @@ body:has(.head-sect[open]) {
   transition: fill 0.3s ease;
 }
 
-.like-icon:active .layer-unit  {
+.like-icon:active .layer-unit {
   fill: #ff0000;
   transition: fill 0.3s ease 0.05s;
 }
