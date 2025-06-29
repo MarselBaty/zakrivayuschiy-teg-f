@@ -11,14 +11,16 @@
     --normal-text-weight: 400;
     --bold-text-weight: 700;
     --main-text-size: 18px;
-    --section-width: clamp(375px, calc(0.3014vw * 100 + 375px - 30.14px), 700px);
-    --header-logotype-font-size: clamp(49px, 4.17vw + 33.37px, 65px);
-    --header-title-size: clamp(49px, 4.17vw + 33.37px, 65px);
+
+    --header-title-font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+    --header-logo-font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+    --header-width-size: clamp(375px, 16.2852rem + 30.5164vw, 700px);
+    --header-padding: clamp(120px, 7.3239rem + 0.7512vw, 128px);
     --dlg-width-size: clamp(341px, 20.9604rem + 1.5023vw, 357px);
     --dlg-padding-size: clamp(40px, 3.0964rem + -2.5445vw, 30px);
     --save-btn-width-size: clamp(310px, 18.7368rem + 2.723vw, 339px);
 
-    --cont-itm-padding-right: 25px;
-    --cont-itm-padding-top: 26px;
+    --cont-itm-padding-right: clamp(11px, 0.3794rem + 1.3146vw, 25px);
+    --cont-itm-padding-top: clamp(23px, 1.3935rem + 0.1878vw, 25px);
     --padding-header-logo-title: clamp(120px, 0.751vw + 117.18px, 128px) clamp(14px, 10.047vw - 23.68px, 121px);
 }
